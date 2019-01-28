@@ -1,0 +1,77 @@
+﻿* {
+    outline: 0 !important;
+}
+
+.search-button {
+    max-width: 100px;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.search-input {
+    margin-top: 25px;
+    border: 2px solid #ff6a00;
+    height:30px;
+    border-radius: 5px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    color: #ff6a00;
+    font-family: Oswald;
+    font-size: 40px;
+}
+
+.form-group {
+    display:flex;
+    flex-direction:column;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.btn-tertiary {
+    color: #ff6a00;
+    font-family:Oswald;
+    padding: 0;
+    line-height: 40px;
+    width: 300px;
+    margin: auto;
+    display: block;
+    border: 2px solid #ff6a00;
+}
+
+    .btn-tertiary:hover, .btn-tertiary:focus {
+        color: #f8961d;
+        border-color: #f8961d;
+    }
+/* input file style */
+.input-file {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+    .input-file + .js-labelFile {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        padding: 0 10px;
+        cursor: pointer;
+    }
+
+        .input-file + .js-labelFile .icon:before {
+            content: "\f093";
+        }
+
+        .input-file + .js-labelFile.has-file .icon:before {
+            content: "\f00c";
+            color: #5aac7b;
+        }

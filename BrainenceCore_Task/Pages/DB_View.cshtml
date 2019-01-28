@@ -1,0 +1,18 @@
+﻿@page
+@model BrainenceCore_Task.Pages.DB_ViewModel
+@{
+    ViewData["Title"] = "DB_View";
+}
+<div class="title">
+    <h1>Brainence task</h1>
+</div>
+<p><a class="btn btn-warning btn-sm" asp-page="Index">Add</a></p>
+<table class="table">
+    <tbody>
+        @foreach (var text in Model.Text)
+        {
+            <tr><td>@text.text</td></tr>
+        }
+    </tbody>
+</table>
+

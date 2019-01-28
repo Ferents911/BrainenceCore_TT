@@ -1,0 +1,11 @@
+E:\coding\Web\Web_Applications\BrainenceCore_Task\BrainenceCore_Task\bin\Debug\netcoreapp2.0\BrainenceCore_Task.deps.json
+E:\coding\Web\Web_Applications\BrainenceCore_Task\BrainenceCore_Task\bin\Debug\netcoreapp2.0\BrainenceCore_Task.runtimeconfig.json
+E:\coding\Web\Web_Applications\BrainenceCore_Task\BrainenceCore_Task\bin\Debug\netcoreapp2.0\BrainenceCore_Task.runtimeconfig.dev.json
+E:\coding\Web\Web_Applications\BrainenceCore_Task\BrainenceCore_Task\bin\Debug\netcoreapp2.0\BrainenceCore_Task.dll
+E:\coding\Web\Web_Applications\BrainenceCore_Task\BrainenceCore_Task\bin\Debug\netcoreapp2.0\BrainenceCore_Task.pdb
+E:\coding\Web\Web_Applications\BrainenceCore_Task\BrainenceCore_Task\obj\Debug\netcoreapp2.0\BrainenceCore_Task.csproj.CoreCompileInputs.cache
+E:\coding\Web\Web_Applications\BrainenceCore_Task\BrainenceCore_Task\obj\Debug\netcoreapp2.0\BrainenceCore_Task.AssemblyInfoInputs.cache
+E:\coding\Web\Web_Applications\BrainenceCore_Task\BrainenceCore_Task\obj\Debug\netcoreapp2.0\BrainenceCore_Task.AssemblyInfo.cs
+E:\coding\Web\Web_Applications\BrainenceCore_Task\BrainenceCore_Task\obj\Debug\netcoreapp2.0\BrainenceCore_Task.dll
+E:\coding\Web\Web_Applications\BrainenceCore_Task\BrainenceCore_Task\obj\Debug\netcoreapp2.0\BrainenceCore_Task.pdb
+E:\coding\Web\Web_Applications\BrainenceCore_Task\BrainenceCore_Task\obj\Debug\netcoreapp2.0\BrainenceCore_Task.csprojAssemblyReference.cache

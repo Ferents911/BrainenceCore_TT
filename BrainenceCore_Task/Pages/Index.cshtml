@@ -1,0 +1,35 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "BrainenceCore_Task";
+}
+
+<div class="title">
+    <h1>Brainence task</h1>
+</div>
+<p><a class="btn btn-warning btn-sm" asp-page="DB_View">Show the database</a></p>
+<form method="post" class="form-group" enctype="multipart/form-data">
+    <input type="file" asp-for="Upload" id="file" class="input-file">
+    <label for="file" class="btn btn-tertiary js-labelFile">
+        <i class="icon fa fa-check"></i>
+        <span class="js-fileName">Choose a file</span>
+   </label>
+    <input type="text" asp-for="search_Text" class="search-input" name="search_Text" />
+    <span asp-validation-for="search_Text"></span>
+    <input class="btn btn-warning btn-sm search-button" type="submit" value="Find" />
+</form>
+<table class="table">
+    <tbody>
+        @if  ( (Model.split_text != null) && (Model.result !=null) )
+        {
+            @foreach (var text in Model.result)
+            {
+                <tr><td>@text</td></tr>
+            }
+        }
+    </tbody>
+</table>
+
+
+
+
